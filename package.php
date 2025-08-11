@@ -1,0 +1,151 @@
+<?php include 'config.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packages</title>
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts -->
+
+<section class="header">
+    <a href="home.php" class="logo">
+        <img src="images/logo.jpg" alt="" class="logo-img">
+    </a>
+
+    <nav class="navbar">
+        <a href="home.php">home</a>
+        <a href="gallery.php">gallery</a>
+        <a href="discover.php">discover</a>
+        <a href="package.php">package</a>
+        <a href="contact.php">contact</a>
+        <a href="about.php">about</a>
+        <a href="faq.php">FAQ</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>  
+
+</section>
+
+
+<!-- header section end -->
+<div class="heading">
+    <h1> packages</h1>
+</div>
+
+<!-- packages section starts -->
+
+<div class="vehicle-filter">
+  <label><input type="radio" name="vehicle" value="All" class="vehicle-radio" checked> All Vehicles</label>
+  <label><input type="radio" name="vehicle" value="Car" class="vehicle-radio"> Car (1-3 pax)</label>
+  <label><input type="radio" name="vehicle" value="Mini van" class="vehicle-radio"> Mini Van (1-6 pax)</label>
+  <label><input type="radio" name="vehicle" value="Large van" class="vehicle-radio"> Large Van (1-10 pax)</label>
+</div>
+
+<!-- packages section ends -->
+
+
+
+
+<div class="packages-container">
+    <?php
+    $sql = "SELECT * FROM tour_packages";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            $id = $row['id'];
+            $vehicle = $row['vehicle_type'];
+            $days = $row['no_of_days'];
+            $persons = $row['no_of_persons'];
+            $price = $row['price'];
+            $places = $row['suggest_places'];
+
+            echo "<div class='package-card' data-vehicle='$vehicle'>
+                    <div class='package-row'>
+                            <h3>$days days tour with $vehicle</h3>
+                            <p class='price'>\$$price</p>
+                            <a href='book.php?vehicle_type=$vehicle&no_of_days=$days&price=$price' class='book-btn'>Book Now</a>
+                    </div>
+                    
+                    <p>Personal driver for up to $persons People</p>
+                     <p><a href='package-details.php?id={$row['id']}'>What's included?</a></p>
+
+                </div>";
+        }
+    } else {
+        echo "<p>No packages found.</p>";
+    }
+    $conn->close();
+    ?>
+</div>
+
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="home.php"> <i class="fas fa-angle-right"></i> Home</a>
+            <a href="about.php"> <i class="fas fa-angle-right"></i> About</a>
+            <a href="package.php"> <i class="fas fa-angle-right"></i> Package</a>
+        </div>
+
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="faq.php"> <i class="fas fa-angle-right"></i>Ask Questions </a>
+            <a href="privacy_policy.php" onclick="showPrivacyPolicy(); return false;"><i class="fas fa-angle-right"></i> Privacy Policy</a>
+            <a href="#"> <i class="fas fa-angle-right"></i>Terms of Use </a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="tel:+94767614768"> <i class="fas fa-phone"></i>+94 76 7614 768</a>
+            <a href="mailto:srilankafantasypersonaltours@gmail.com"> <i class="fas fa-envelope"></i>srilankafantasypersonaltours@gmail.com</a>
+        </div>
+
+        <div class="box">
+            <h3> Follow Us</h3>
+            <a href="https://www.facebook.com/share/19RkiSGJtC/?mibextid=wwXIfr" target="_blank" rel="noopener"> 
+                <i class="fab fa-facebook-f"></i> Facebook </a>
+            <a href="https://www.instagram.com/srilanka_fantasypersonaltours?igsh=aXlvaTFsZXp0cjd1&utm_source=qr" target="_blank" rel="noopener"> 
+                <i class="fab fa-instagram"></i> Instagram </a>
+        </div>
+        
+    </div>
+
+    <div class="credit"> created by <span>ms. web designer</span> | all rights reserved! </div>
+
+</section>
+
+
+<!-- swiper js link -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="script.js"></script>
+
+
+<?php include 'privacy_policy.php'; ?>
+
+
+</body>
+</html>
+
+    
