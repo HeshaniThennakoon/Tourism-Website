@@ -1,14 +1,15 @@
 <?php
 session_start();
-$_SESSION['booking_data'] = $_POST; // Save temporarily
+$_SESSION['booking_data'] = $_POST;
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Review Your Booking</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="review-box">
     <h2>Review Your Booking</h2>
     <p><strong>Name:</strong> <?= htmlspecialchars($_POST['name']) ?></p>
     <p><strong>Email:</strong> <?= htmlspecialchars($_POST['email']) ?></p>
@@ -23,8 +24,8 @@ $_SESSION['booking_data'] = $_POST; // Save temporarily
     <p><strong>Message:</strong> <?= htmlspecialchars($_POST['message']) ?></p>
 
     <form action="confirm_booking.php" method="post">
-        <button type="submit">Confirm Booking</button>
+        <button type="submit" class="btn">Confirm Booking</button>
     </form>
+</div>
 </body>
 </html>
-

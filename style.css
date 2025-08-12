@@ -634,6 +634,31 @@ section{
 
 
 
+/* Review Page */
+.review-box {
+    background: #b5ecd2;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+.review-box p {
+    font-size: 1.8rem;
+    color: var(--black);
+    margin: 0.5rem 0;
+    text-transform: none;
+}
+.review-box h2 {
+    font-size: 3rem;
+    color: #345e4a;
+    margin-bottom: 20px;
+}
+.review-box strong {
+    color: var(--black);
+}
+
+
 /* Packages php */
 .vehicle-filter {
   text-align: center;
