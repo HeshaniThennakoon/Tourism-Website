@@ -1,0 +1,12 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Config files with secrets
+config.php
+
+# OS/Editor junk
+.DS_Store
+*.log
+.vscode/
+.idea/
