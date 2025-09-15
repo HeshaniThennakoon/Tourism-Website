@@ -123,7 +123,7 @@
         
     </div>
 
-    <div class="credit"> created by <span>ms. web designer</span> | all rights reserved! </div>
+    <div class="credit"> created by <span>Heshi Web Designer</span> | all rights reserved! </div>
 
 </section>
 

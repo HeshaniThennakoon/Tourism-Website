@@ -98,7 +98,7 @@ $conn->close();
     }
     .success-icon {
       font-size: 64px;
-      color: #28a745;
+      color: #3fb65aff;
       margin-bottom: 20px;
     }
     h2 {
@@ -113,21 +113,21 @@ $conn->close();
     .booking-id {
       font-size: 20px;
       font-weight: bold;
-      color: #1d72b8;
+      color: #1db88aff;
       margin: 20px 0;
     }
     .btn {
       display: inline-block;
       margin-top: 20px;
       padding: 12px 24px;
-      background: #1d72b8;
+      background: #1db8a3ff;
       color: #fff;
       text-decoration: none;
       border-radius: 8px;
       transition: background 0.3s;
     }
     .btn:hover {
-      background: #145a86;
+      background: #14867cff;
     }
   </style>
 </head>
@@ -138,7 +138,7 @@ $conn->close();
     <p>Thank you, <b><?= htmlspecialchars($name) ?></b>.</p>
     <p>Your booking has been successfully received.</p>
     <div class="booking-id">Booking ID: #<?= $booking_id ?></div>
-    <p>We’ve also sent a confirmation email to the admin.</p>
+    <p>We've also sent a confirmation email to the admin.</p>
     <a href="home.php" class="btn">Back to Home</a>
   </div>
 </body>
