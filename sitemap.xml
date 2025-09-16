@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/index.php</loc>
+      <priority>1.0</priority>
+   </url>
+
+    <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/home.php</loc>
+      <priority>1.0</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/about.php</loc>
+      <priority>0.9</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/contact.php</loc>
+      <priority>0.9</priority>
+   </url>
+   
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/discover.php</loc>
+      <priority>0.9</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/east-coast-details.php</loc>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/ella-details.php</loc>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/faq.php</loc>
+      <priority>0.7</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/galle-details.php</loc>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/gallery.php</loc>
+      <priority>0.7</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/jaffna-details.php</loc>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/kandy-details.php</loc>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/nuwara-eliya-details.php</loc>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/package-details.php</loc>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/package.php</loc>
+      <priority>0.9</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/privacy-policy.php</loc>
+      <priority>0.6</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/review.php</loc>
+      <priority>0.7</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/sigiriya-details.php</loc>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/south-coast-details.php</loc>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/submit-booking.php</loc>
+      <priority>0.7</priority>
+   </url>
+
+   <url>
+      <loc>https://fantasypersonaltours.infinityfreeapp.com/west-coast-details.php</loc>
+      <priority>0.8</priority>
+   </url>
+
+</urlset>
