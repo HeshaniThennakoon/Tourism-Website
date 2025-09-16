@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fantasypersonaltours.infinityfreeapp.com/sitemap.xml
