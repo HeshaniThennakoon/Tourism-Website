@@ -36,15 +36,15 @@ $booking_id = $stmt->insert_id;
 $stmt->close();
 
 // Send Email
-$owner_email = "heshanithennakoon118@gmail.com";
+$owner_email = "srilankafantasypersonaltours@gmail.com";
 $mail = new PHPMailer(true);
 
 try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'heshanithennakoon118@gmail.com';    // replace
-    $mail->Password = 'miwk zera elau bvga'; // replace
+    $mail->Username = 'srilankafantasypersonaltours@gmail.com';    // replace
+    $mail->Password = 'tzgt vnkj qmdf tgpq'; // replace
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
