@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galle and around</title>
+    <meta name="description" content="Explore Galle with Fantasy Personal Tours. Visit the Galle Fort, beaches, lighthouses, and cultural attractions on private tours.">
 
     <!-- swiper css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>

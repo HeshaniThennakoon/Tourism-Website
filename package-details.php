@@ -25,6 +25,8 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Packages</title>
+    <meta name="description" content="View detailed information about our Sri Lanka tour packages. Private tours, itineraries, pricing, and booking options available.">
+
 
     <!-- swiper css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>

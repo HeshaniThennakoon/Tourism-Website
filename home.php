@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the magic of Sri Lanka with Sri Lanka Fantasy Personal Tour, a trusted name in private tours and transportation with over 12 years of experience. Renowned for reliability, comfort, and personalized service, we specialize in creating unforgettable travel experiences across this beautiful island.">
     <title>home</title>
 
     <!-- swiper css link -->

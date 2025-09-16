@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sigiriya and around</title>
+    <meta name="description" content="Visit the iconic Sigiriya Rock Fortress with Fantasy Personal Tours. Explore ancient ruins, gardens, and cultural landmarks on private tours.">
 
     <!-- swiper css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>

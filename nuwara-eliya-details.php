@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuwara Eliya and around</title>
+    <meta name="description" content="Explore the hill country of Nuwara Eliya with Fantasy Personal Tours. Visit tea plantations, waterfalls, Gregory Lake, and scenic mountains.">
 
     <!-- swiper css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>

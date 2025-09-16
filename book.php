@@ -12,6 +12,8 @@ $price = $_GET['price'] ?? '';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book your private tour with Fantasy Personal Tours Sri Lanka. Choose your vehicle, trip duration, and plan your unforgettable journey today.">
+    <meta name="robots" content="index, follow">
     <title>book now</title>
 
     <!-- swiper css link -->

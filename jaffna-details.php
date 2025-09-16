@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jaffna and around</title>
+    <meta name="description" content="Discover the culture and heritage of Jaffna with Fantasy Personal Tours. Explore temples, beaches, and local markets on private tours.">
 
     <!-- swiper css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
