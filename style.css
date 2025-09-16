@@ -1287,6 +1287,10 @@ section{
     .home .swiper-slide .content h3{
         font-size: 10vw;
     }
+    .card {
+    width: 45%;
+    height: auto;
+    }
 
 }
 
@@ -1300,8 +1304,20 @@ section{
         height: 200px;
     }
 
+    .discover .title {
+        font-size: 2.5rem;
+    }
+
+    .discover .subtitle {
+        font-size: 1.6rem;
+    }
+
     .details-section h1 {
         font-size: 2rem;
+    }
+
+    .details-section h3 {
+        font-size: 1.2rem;
     }
 
     .navigation-buttons {
@@ -1310,9 +1326,19 @@ section{
         align-items: center;
     }
 
+    .card {
+        width: 100%;
+        height: auto;
+    }
+
     .card-grid {
         flex-direction: column;
         align-items: center;
+    }
+
+    .card img {
+        height: auto;
+        max-height: 220px;
     }
 
     .questions .box h3 {
@@ -1372,6 +1398,24 @@ section{
 }
 
 @media (max-width:450px){
+    body{
+        padding: 0 10px;
+    }
+
+    .card-content p{
+        font-size: 14px;
+    }
+
+    .navigation-buttons{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navigation-buttons .btn{
+        width: 100%;
+        text-align: center;
+    }
+
     .gallery-grid {
         column-count: 1;
     }
