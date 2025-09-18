@@ -44,6 +44,7 @@ $price = $_GET['price'] ?? '';
         <a href="discover.php">discover</a>
         <a href="package.php">package</a>
         <a href="contact.php">contact</a>
+        <a href="feedback.php">feedback</a>
         <a href="about.php">about</a>
         <a href="faq.php">FAQ</a>
     </nav>

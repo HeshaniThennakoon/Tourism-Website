@@ -659,7 +659,7 @@ section{
 }
 
 
-/* Packages php */
+/* Packages */
 .vehicle-filter {
   text-align: center;
   font-size: 2rem;
@@ -1261,6 +1261,203 @@ section{
 
 
 
+
+/* Feedback section */
+.input-field,
+.textarea-field {
+    font-size: 2rem;   /* enlarge font */
+    padding: 14px;       /* bigger padding */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+/* Focus effect */
+.input-field:focus,
+.textarea-field:focus {
+    border-color: #34dbb7;
+    box-shadow: 0 0 5px rgba(52, 219, 183, 0.4);
+}
+
+/* Textarea size */
+.textarea-field {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Placeholder styling */
+.input-field::placeholder,
+.textarea-field::placeholder {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.section-title {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1a7255;
+}
+
+
+/* Comment Form */
+.comment-form {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: var(--light-bg);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.comment-form .section-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #045224;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-field,
+.textarea-field {
+    text-transform: none; 
+    -webkit-text-autocapitalize: none;
+}
+
+.input-field, .textarea-field {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1.5rem;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus, .textarea-field:focus {
+    border-color: var(--main-color);
+}
+
+.textarea-field {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.btn-submit {
+    background: var(--black);
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background: var(--main-color);
+}
+
+#phone {
+    width: 100%;
+    padding-left: 80px; /* leave space for the flag dropdown */
+}
+
+
+/* Reviews */
+.reviews {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 0;
+}
+
+.review-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    justify-items: stretch;
+    width: 100%;
+    max-width: 100%;
+    min-height: 300px;
+}
+
+.review-box {
+    background: var(--light-white);
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 10px solid var(--main-color);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.reviewer-name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #045224;
+}
+
+.review-text {
+    font-size: 1.2rem;
+    color: #555555;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-transform: none;
+}
+
+.review-text::before {
+    content: "“";
+    font-size: 2rem;
+}
+
+.review-text::after {
+    content: "”";
+    font-size: 2rem;
+}
+
+.review-date {
+    font-size: 1rem;
+    color: #888;
+}
+
+
+.no-reviews {
+    grid-column: 1 / -1;  /* span all columns */
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    font-size: 1.8rem;
+}
+
+
+/* success message */
+.success-message {
+    background: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 700px;
+    font-size: 1.6rem;
+}
+
+
+
+
 /* media queries */
 @media (max-width:1200px){
 
@@ -1274,7 +1471,12 @@ section{
 
 }
 
+/* Tablet */
 @media (max-width:991px){
+
+    .review-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+    }
 
     html{
         font-size: 55%;
@@ -1292,9 +1494,22 @@ section{
     height: auto;
     }
 
-}
+    .section-title {
+        font-size: 4rem;
 
+    }
+}
+/* Mobile */
 @media (max-width:768px){
+    .review-container {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }    
+
+    .section-title {
+        font-size: 3rem;
+    }
+
     .gallery-grid {
         gap: 1rem;
     }
@@ -1400,6 +1615,10 @@ section{
 @media (max-width:450px){
     body{
         padding: 0 10px;
+    }
+
+    .section-title{
+        font-size: 2.5rem;
     }
 
     .card-content p{
